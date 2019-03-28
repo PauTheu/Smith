@@ -3,7 +3,7 @@
 let d = 200;
 
 function setup() {
-   createCanvas(displayWidth, displayHeight);
+   createCanvas(400, 400);
 }
 
 let y1;
