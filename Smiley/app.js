@@ -31,11 +31,15 @@ function draw() {
   line(225, y1, 255, 140)
   ellipse(160, 170, 36);
   ellipse(240, 170, 36)
+  fill(0);
   ellipse(x1, 170, 7)
   ellipse(x2, 170, 7)
+  fill(255);
+
+
   triangle(width/2, (height/2) - 10, 180, 220, 220, 220);
+
   noFill();
-  
   beginShape();
   curveVertex(150,y2)
   curveVertex(150,y2)
