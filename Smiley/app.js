@@ -18,15 +18,15 @@ function draw() {
  
   background(220);
   strokeWeight(5);
-  fill(255, 255, 255);
-  text("X: "+rotationX, 20, height/4);
-  text("Y: "+rotationY, 20, height/2);
+  fill(0);
+  text("X: "+rotationX, width/3, 30);
+  text("Y: "+rotationY, (width * 2)/ 3, 30);
   fill(255 - value, 255, 0);
   
   strokeWeight(3);
   ellipse(width/2, height/2, d);
   fill(255);
-  let aX = accelerationX;
+  
   line(145, 140, 175, y1)
   line(225, y1, 255, 140)
   ellipse(160, 170, 36);
