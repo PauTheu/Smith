@@ -21,7 +21,7 @@ function draw() {
   fill(0);
   text("X: "+rotationX, 10, 30);
   text("Y: "+rotationY, (width * 2)/ 4, 30);
-  fill(255, 255 - value , 0);
+  fill(255 - value, 255 , 0);
   
   strokeWeight(3);
   ellipse(width/2, height/2, d);
