@@ -12,15 +12,15 @@ let value = 0;
 let x1;
 let x2;
 
-//let pX = Math.abs(aX) + 1;
+
 
 function draw() {
  
   background(220);
   strokeWeight(5);
   fill(0);
-  text("X: "+rotationX, width/3, 30);
-  text("Y: "+rotationY, (width * 2)/ 3, 30);
+  text("X: "+rotationX, 10, 30);
+  text("Y: "+rotationY, (width * 2)/ 4, 30);
   fill(255 - value, 255, 0);
   
   strokeWeight(3);
