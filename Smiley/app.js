@@ -21,7 +21,7 @@ function draw() {
   fill(0);
   text("X: "+rotationX, 10, 30);
   text("Y: "+rotationY, (width * 2)/ 4, 30);
-  fill(255 - value, 255, 0);
+  fill(255, 255 - value , 0);
   
   strokeWeight(3);
   ellipse(width/2, height/2, d);
@@ -70,7 +70,7 @@ function draw() {
 }
 
 function deviceShaken() {
-  value = value + 5;
+  value = value + 3;
   if (value > 255) {
     value = 0;
   }
